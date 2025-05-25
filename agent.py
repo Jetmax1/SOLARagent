@@ -8,7 +8,7 @@ from PIL import Image
 import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
-genai.configure(api_key="**********************")
+genai.configure(api_key="AIzaSyD-a2kuCZWWzbiaQ9t34ELnJ4Y3HZT-Y3E")
 
 vision_model = genai.GenerativeModel("gemini-1.5-flash")
 text_model = genai.GenerativeModel("gemini-1.5-flash")

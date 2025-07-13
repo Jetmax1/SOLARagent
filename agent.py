@@ -13,7 +13,7 @@ genai.configure(api_key="AIzaSyD-a2kuCZWWzbiaQ9t34ELnJ4Y3HZT-Y3E")
 vision_model = genai.GenerativeModel("gemini-1.5-flash")
 text_model = genai.GenerativeModel("gemini-1.5-flash")
 
-model = load_model(r"m32.h5")
+model = load_model("m32.h5", compile=False)
 
 class_labels = ['Cell', 'Cell-Multi', 'Cracking', 'Diode', 'Diode-Multi',
                 'Hot-Spot', 'Hot-Spot-Multi', 'No-Anomaly', 'Offline-Module',
